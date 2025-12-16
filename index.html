@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaitanya Kelkar - Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Chaitanya Kelkar - Full Stack Developer, Cybersecurity Enthusiast, and Technical Head at ACM Student Chapter">
+    <meta name="keywords" content="Full Stack Developer, Cybersecurity, React, Node.js, Portfolio">
+    <meta property="og:title" content="Chaitanya Kelkar - Full Stack Developer">
+    <meta property="og:description" content="Portfolio showcasing projects and skills in Full Stack Development and Cybersecurity">
+    <meta name="twitter:title" content="Chaitanya Kelkar - Full Stack Developer">
+    <meta name="twitter:description" content="Portfolio showcasing projects and skills in Full Stack Development and Cybersecurity">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #dbeafe;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --bg-light: #f8fafc;
+            --bg-white: #ffffff;
+        }
+        
+        [data-theme="dark"] {
+            --primary-color: #60a5fa;
+            --secondary-color: #1e3a8a;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --bg-light: #0f172a;
+            --bg-white: #1e293b;
+        }
+    }
+
+    @layer base {
+        * {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+        
+        body {
+            @apply font-['Inter'] text-[var(--text-primary)] bg-[var(--bg-white)];
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            @apply font-semibold;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    }
+
+    @layer utilities {
+        .section-padding {
+            @apply min-h-screen flex items-center py-20 px-6;
+        }
+        
+        .container-custom {
+            @apply max-w-6xl mx-auto w-full;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/ThemeToggle.js"></script>
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/About.js"></script>
+    <script type="text/babel" src="components/Skills.js"></script>
+    <script type="text/babel" src="components/Experience.js"></script>
+    <script type="text/babel" src="components/Projects.js"></script>
+    <script type="text/babel" src="components/Resume.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
