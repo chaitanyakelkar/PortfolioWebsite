@@ -31,6 +31,43 @@ function Hero() {
           <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8 max-w-3xl mx-auto">
             Computer Engineering Student | Full Stack Developer | Python & MERN Stack
           </p>
+
+          <div className="flex justify-center gap-4 mb-8">
+            <a
+              href="https://linkedin.com/in/chaitanya-kelkar/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-[var(--secondary-color)] flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors group"
+              aria-label="LinkedIn"
+            >
+              <i className="devicon-linkedin-plain text-2xl text-[var(--primary-color)] group-hover:text-white"></i>
+            </a>
+            <a
+              href="https://github.com/chaitanyakelkar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-[var(--secondary-color)] flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors group"
+              aria-label="GitHub"
+            >
+              <i className="devicon-github-original text-2xl text-[var(--primary-color)] group-hover:text-white"></i>
+            </a>
+            <a
+              href="https://leetcode.com/u/chaitanyaakelkar57/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-[var(--secondary-color)] flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors group"
+              aria-label="LeetCode"
+            >
+              <i className="devicon-leetcode-plain text-xl text-[var(--primary-color)] group-hover:text-white"></i>
+            </a>
+            <a
+              href="mailto:chaitanyaakelkar57@gmail.com"
+              className="w-12 h-12 rounded-full bg-[var(--secondary-color)] flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors group"
+              aria-label="Email"
+            >
+              <div className="icon-mail text-xl text-[var(--primary-color)] group-hover:text-white"></div>
+            </a>
+          </div>
           
           <button
             onClick={scrollToProjects}

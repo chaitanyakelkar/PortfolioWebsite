@@ -1,11 +1,12 @@
 function Footer() {
   const socialLinks = [
-    { name: 'GitHub', icon: 'github', url: 'https://github.com/chaitanyakelkar' },
-    { name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com/in/chaitanya-kelkar/' },
-    { name: 'Email', icon: 'mail', url: 'mailto:chaitanyaakelkar57@gmail.com' }
+    { name: 'LinkedIn', icon: 'linkedin', iconType: 'devicon', url: 'https://linkedin.com/in/chaitanya-kelkar/' },
+    { name: 'GitHub', icon: 'github', iconType: 'devicon', url: 'https://github.com/chaitanyakelkar' },
+    { name: 'Leetcode', icon: 'leetcode', iconType: 'devicon', url: 'https://leetcode.com/u/chaitanyaakelkar57/' },
+    { name: 'Email', icon: 'mail', iconType: 'lucide', url: 'mailto:chaitanyaakelkar57@gmail.com' }
   ];
 
-  try {
+try {
     return (
       <footer className="bg-gray-900 text-white py-12" data-name="footer" data-file="components/Footer.js">
         <div className="container-custom">
@@ -20,7 +21,11 @@ function Footer() {
                   className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-all"
                   aria-label={social.name}
                 >
-                  <div className={`icon-${social.icon} text-xl text-gray-300`}></div>
+                  {social.iconType === 'devicon' ? (
+                    <i className={`devicon-${social.icon}-${social.icon === 'github' ? 'original' : 'plain'} text-2xl text-gray-300`}></i>
+                  ) : (
+                    <div className={`icon-${social.icon} text-xl text-gray-300`}></div>
+                  )}
                 </a>
               ))}
             </div>
