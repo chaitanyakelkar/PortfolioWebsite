@@ -1,9 +1,9 @@
 {
   "rewrites": [
     {
-      "has": [{ "type": "host", "value": "mail.chaitanyakelkar.me" }],
-      "source": "/",
-      "destination": "/mail/index.html"
+      "has": [{ "type": "host", "value": "mail.abc.me" }],
+      "source": "/(.*)",
+      "destination": "/mail"
     }
   ],
   "redirects": [
