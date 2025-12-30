@@ -21,7 +21,7 @@ function Resume() {
 
             <div className="text-center">
               <a
-                href="../resource/resume/Chaitanya_Kelkar_Resume.pdf"
+                href="../public/resource/resume/Chaitanya_Kelkar_Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-8 py-3 bg-[var(--primary-color)] text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
               >

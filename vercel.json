@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "has": [{ "type": "host", "value": "github.chaitanyakelkar.me" }],
+      "source": "/(.*)",
+      "destination": "https://github.com/chaitanyakelkar",
+      "permanent": true
+    },
+    {
+      "has": [{ "type": "host", "value": "linkedin.chaitanyakelkar.me" }],
+      "source": "/(.*)",
+      "destination": "https://linkedin.com/in/chaitanya-kelkar/",
+      "permanent": true
+    },
+    {
+      "has": [{ "type": "host", "value": "leetcode.chaitanyakelkar.me" }],
+      "source": "/(.*)",
+      "destination": "https://leetcode.com/u/chaitanyaakelkar57/",
+      "permanent": true
+    },
+    {
+      "has": [{ "type": "host", "value": "resume.chaitanyakelkar.me" }],
+      "source": "/",
+      "destination": "/resource/resume/Chaitanya_Kelkar_Resume.pdf",
+      "permanent": true
+    },
+    {
+      "has": [{ "type": "host", "value": "mail.chaitanyakelkar.me" }],
+      "source": "/",
+      "destination": "mailto:chaitanyakelkar57@gmail.com",
+      "permanent": false
+    }
+  ]
+}
