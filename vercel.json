@@ -1,4 +1,11 @@
 {
+  "rewrites": [
+    {
+      "has": [{ "type": "host", "value": "mail.chaitanyakelkar.me" }],
+      "source": "/",
+      "destination": "/mail/index.html"
+    }
+  ],
   "redirects": [
     {
       "has": [{ "type": "host", "value": "github.chaitanyakelkar.me" }],
