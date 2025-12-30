@@ -23,12 +23,6 @@
       "source": "/",
       "destination": "/resource/resume/Chaitanya_Kelkar_Resume.pdf",
       "permanent": true
-    },
-    {
-      "has": [{ "type": "host", "value": "mail.chaitanyakelkar.me" }],
-      "source": "/",
-      "destination": "mailto:chaitanyakelkar57@gmail.com",
-      "permanent": false
     }
   ]
 }
