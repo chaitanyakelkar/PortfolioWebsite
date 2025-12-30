@@ -13,7 +13,7 @@ function Hero() {
           <div className="mb-8 flex justify-center">
             <div className="w-48 h-48 rounded-full bg-gradient-to-br from-[var(--primary-color)] to-blue-600 p-1">
               <img
-                src="..public/resource/profilephoto/profilephoto.JPG"
+                src="resource/profilephoto/profilephoto.JPG"
                 alt="Chaitanya Kelkar"
                 className="w-full h-full rounded-full object-cover object-top"
               />
