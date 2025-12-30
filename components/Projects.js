@@ -5,7 +5,7 @@ function Projects() {
       description: 'Full-featured ticket booking system with secure authentication, payment processing, background jobs, and automated email notifications.',
       tech: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Inngest', 'Clerk', 'Stripe', 'Brevo'],
       github: 'https://github.com/chaitanyakelkar/MovieTicketBooking',
-      demo: 'https://movie-ticket-booking-blond.vercel.app/'
+      demo: 'https://mtb.chaitanyakelkar.me/'
     },
     {
       title: 'League On',
