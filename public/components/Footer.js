@@ -6,6 +6,8 @@ function Footer() {
     { name: 'Email', icon: 'mail', iconType: 'lucide', url: 'mailto:chaitanyaakelkar57@gmail.com' }
   ];
 
+  const currentYear = new Date().getFullYear();
+
 try {
     return (
       <footer className="bg-gray-900 text-white py-12" data-name="footer" data-file="components/Footer.js">
@@ -31,7 +33,7 @@ try {
             </div>
             
             <p className="text-gray-400 text-sm text-center">
-              © 2025 Chaitanya Kelkar. All rights reserved.
+              © {currentYear} Chaitanya Kelkar. All rights reserved.
             </p>
           </div>
         </div>
