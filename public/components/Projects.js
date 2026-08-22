@@ -12,7 +12,7 @@ function Projects() {
       description: 'Cricket-focused platform connecting players, teams, and organizers. Features player profiling, geolocation-based tournament discovery, performance statistics tracking, and merchant e-commerce integration. (Final Year Project – Work in Progress)',
       tech: ['React', 'Node.js', 'MongoDB', 'Maps API', 'Payment Gateway'],
       github: 'https://github.com/chaitanyakelkar/LeagueOn',
-      demo: null
+      demo: 'https://leagueonfrontend-lime.vercel.app/'
     }
   ];
 
