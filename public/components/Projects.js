@@ -13,6 +13,13 @@ function Projects() {
       tech: ['React', 'Node.js', 'MongoDB', 'Maps API', 'Payment Gateway'],
       github: 'https://github.com/chaitanyakelkar/LeagueOn',
       demo: 'https://leagueonfrontend-lime.vercel.app/'
+    },
+    {
+      title: 'KCET College Finder',
+      description: 'Lists Top Colleges Based on User\'s Rank',
+      tech: ['Python', 'StreamLit', 'Gemini API'],
+      github: 'https://github.com/chaitanyakelkar/CET-College-Preference-Builder',
+      demo: 'https://cet-college-preference-builder.streamlit.app/'
     }
   ];
 

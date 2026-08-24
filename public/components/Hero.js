@@ -29,7 +29,7 @@ function Hero() {
           </p>
           
           <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8 max-w-3xl mx-auto">
-            Computer Engineering Student | Full Stack Developer | Python & MERN Stack
+            Computer Engineer | Software Development Engineer | Java, Python & JavaScript
           </p>
 
           <div className="flex justify-center gap-4 mb-8">

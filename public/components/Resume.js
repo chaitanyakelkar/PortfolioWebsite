@@ -9,19 +9,17 @@ function Resume() {
             <div className="mb-8">
               <h3 className="text-2xl font-semibold mb-4">Education & Experience</h3>
               <p className="text-[var(--text-secondary)] mb-4 leading-relaxed">
-                Currently pursuing Computer Engineering (2022–2026) with strong foundation in full stack 
-                development and backend engineering. Completed internship at Elite Software working on 
-                Django-based e-commerce platform development.
+                Computer Engineering graduate with excellent academic record.Passionate about solving real-world problems using technology.
               </p>
               <p className="text-[var(--text-secondary)] leading-relaxed">
-                My experience includes building scalable REST APIs, implementing authentication systems, 
-                integrating payment gateways, and developing full-stack applications using MERN stack and Python frameworks.
+                Proficient in Java, Python and JavaScript programming languages. 
+                Hands on experience in backend development using ExpressJS, Node.js and MongoDB.
               </p>
             </div>
 
             <div className="text-center">
               <a
-                href="resource/resume/Chaitanya_Kelkar_Resume.pdf"
+                href="resource/resume/Chaitanya_Kelkar_Software_Engineer.pdf"
                 download
                 className="inline-flex items-center gap-2 px-8 py-3 bg-[var(--primary-color)] text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
               >

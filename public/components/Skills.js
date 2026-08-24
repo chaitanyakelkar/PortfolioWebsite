@@ -3,12 +3,17 @@ function Skills() {
     {
       title: 'Languages',
       icon: 'code',
-      skills: ['Python', 'Java', 'JavaScript']
+      skills: ['Java', 'Python', 'JavaScript']
     },
     {
-      title: 'Technologies & Frameworks',
+      title: 'Frameworks',
       icon: 'globe',
-      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Django', 'Flask']
+      skills: ['Node.js', 'Express.js', 'Flask']
+    },
+    {
+      title: 'Other Tools',
+      icon: 'wrench',
+      skills: ['GitHub', 'Vercel']
     },
     {
       title: 'Databases',
@@ -16,9 +21,14 @@ function Skills() {
       skills: ['MongoDB', 'MySQL']
     },
     {
-      title: 'Deployment & Tools',
-      icon: 'wrench',
-      skills: ['Git', 'Vercel']
+      title: 'Cloud',
+      icon: 'cloud',
+      skills: ['AWS']
+    },
+    {
+      title: 'AI and Agentic Frameworks',
+      icon: 'ai',
+      skills: ['Claude Code', 'Google AntiGravity']
     },
     {
       title: 'Problem Solving',
