@@ -27,7 +27,7 @@ function Skills() {
     },
     {
       title: 'AI and Agentic Frameworks',
-      icon: 'ai',
+      icon: 'bot',
       skills: ['Claude Code', 'Google AntiGravity']
     },
     {
